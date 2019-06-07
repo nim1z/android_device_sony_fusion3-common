@@ -1,3 +1,0 @@
-#============= hal_graphics_allocator ==============
-allow hal_graphics_allocator graphics_device:dir search;
-allow hal_graphics_allocator graphics_device:chr_file { ioctl read write open };
