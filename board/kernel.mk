@@ -6,7 +6,7 @@ BOARD_KERNEL_IMAGE_NAME := zImage
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
 ifeq ($(TARGET_DEVICE),pollux_windy)
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE += androidboot.selinux=enforcing
 endif
 
 # Serial console
